@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Hub</title> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f6f8fa;
+        }
+        header {
+            background-color: #24292e;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f6f8fa;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #0366d6;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #0366d6;
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+        footer {
+            background-color: #24292e;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Social Portfolio</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Mission</a>
+        <a href="#">Create</a>
+        <a href="#">Portfolios</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Welcome to Social Portfolio!</h2>
+        <p>
+            Welcome: The mission of this website is to help you build your online presence and navigate social media platforms effectively. Whether you're an individual looking to create a professional portfolio or a business seeking to enhance your online branding, we've got you covered.
+        </p>
+        <p>
+            You will be able reate a social media focused website to help people build portfolios and provide people with helpful information and strategies for navigating social media websites.
+        </p>
+        Click here to get Started: <button type="Create" style="height: 30px; width: 100px">Create</button> 
+    </div>
+    <footer>
+        &copy; 2024 Social Portfolio
+    </footer>
+</body>
+</html>
+
